@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+   
+
+   
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+caption{
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+.description{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table{
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+    margin-top: 15px;
+}
+
+.Colours{
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+
+.heading{
+    margin-top: 25px;
+}
+
+.time{
+    margin-top: 15px;
+}
+
+.instruction{
+    margin-top: 20px;
+}
+
+.Last-L{
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+     margin-top: 20px;
+}
+
+    .capt{
+       margin-bottom: 15px; 
+    }
+
+    .col-head{
+        background-color: aliceblue;
+    }
+
+    h3{
+        margin-top: 12px;
+    }
+
+    .Marks{
+        margin-top: 8px;
+    }
+
+    .Guide{
+        margin-bottom: 12px;
+    }
+    .Area{
+        text-align: left;
+        padding-left: 10px;
+    }
+
+.Area-head{
+    background-color: aliceblue;
+}
+
+.procedure{
+    margin-top: 10px;
+}

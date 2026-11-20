@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurements</title>
+    <link rel="stylesheet" href="CSS/Index.css">
+</head>
+<body>
+<main>
+
+    <h1 class="heading">Box Model Assignment: Events Board</h1>
+    <p class="time">Suggested time: 2 hours. 100 marks.</p>
+    <p class="instruction">Build the page shown in 
+        target.png from scratch,
+         writing both the HTML and the CSS. 
+        The text and pictures you need are in content.txt
+         and the img folder. 
+        Match the target at a browser width of 1200px, 
+        and meet every measurement below. Use DevTools 
+        to measure your own work as you go.
+    </p>
+    <p class="Last-L">You may not use flexbox, grid, 
+        float, position, 
+!important or JavaScript. Use class selectors, 
+and write semantic HTML.
+</p>
+    
+   <div class="table">
+     <table border="1" class="Measurement">
+        
+        <caption class="capt">Measurements</caption>
+       <thead class="col-head">
+         <tr>
+            <th scope="col">Part of the page</th>
+            <th scope="col" class="description">
+                What it must do</th>
+        </tr>
+       </thead>
+       
+
+       <tbody>
+         <tr>
+            <td>Box sizing</td>
+            <td>Every element uses border box, set
+                once for the whole page.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Header</td>
+            <td>Padding 16px 24px with a 1px bottom border.
+                The site name and nav links sit on one line.
+            Each nav link is a pill: padding 6px 14px, 1px
+        border, radius 999px, margin-right 6px  </td>
+        </tr>
+
+        <tr>
+            <td>Hero</td>
+            <td>At least 200px tall with 48 px of padding
+                top and bottom. Background linear-gradient 
+                (135deg, #1c2340, #3a1d12). Heading 2.25 rem.
+                Paragraph no wider than 56 characters.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Event Cards</td>
+            <td>Exactly 300 px wide on screen, including 16px
+                of padding and a 1px border. Margin 0 10px 20px.
+                Three cards per row inside the 960px container,
+                then a new row. Cards line up along their tops.
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>Card Picture</td>
+            <td>
+                The picture area is 150px high
+                 and clips its image. The image fills it
+                 without distortion. On hover the image 
+                 zooms slightly and stays inside the rounded
+                 corners.        
+                 </td>
+        </tr>
+
+        <tr>
+            <td>Card title</td>
+            <td>
+                One line only, with an ellipsis when too long.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Card description</td>
+            <td>No taller than 72px, which is three lines
+                at a 24px line height. It scrolls when the
+                text is longer.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Card tags</td>
+            <td>
+                Pills with padding 4px 10px and Margin
+                0 6px 6px 0. They wrap onto a new line if
+                needed.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Register button</td>
+            <td>
+                A full-width block, at least 44px high
+                with the text centered.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Notices Panel</td>
+            <td>
+                Exactly 200px high including
+                its padding and border. It scrolls vertically.
+            </td>
+        </tr>
+        <tr>
+            <td>Schedule table</td>
+            <td>
+                Never narrower than 720px. When the window
+                is narrow, the table scrolls sideways inside
+                its own rounded wrapper, and the page does not.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Narrow window</td>
+            <td>
+                At a browser width of 600px the page has
+                no browser scrollbar.
+            </td>
+        </tr>
+       </tbody>
+
+        
+    </table>
+   </div>
+
+    <h3>Colours and type</h3>   
+    <p class="Colours">Page background #0b0d14. Card and panel 
+        background #141824. Borders #2a2f42. Main text 
+        #E2f3E7. Muted text #a3a9bd. Accent and buttons 
+        #EE6220. Tag background #242a40. Body text 16px
+        in the system font. Store the colours as CSS 
+        variables and use them everywhere.
+    </p>
+    
+<div class="Marks">
+    
+    <table border="1">
+
+        <caption class="Guide">
+            Marks
+        </caption>
+
+        <thead class="Area-head">
+            <tr>
+                <th class="Area">Area</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Measurements: every row of the 
+                    table above is met
+                </td>
+                <td>45</td>
+            </tr>
+
+            <tr>
+                <td>Visual match to the target is 
+                    1200px: spacing, sizing, colours,
+                    alignment
+                </td>
+                <td>25</td>
+            </tr>
+            
+            <tr>
+                <td>CSS qualities: one reset, colour
+                    variables, no repeated declarations,
+                    clear class names, related rules kept
+                    together
+                </td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>HTML:semantic elements, correct heading 
+                    order, alt text on images </td>
+                <td>10</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+    <p class="procedure">Spend the first 10 minutes planning on paper.
+        Work out the box maths for one card, and for
+        three cards across the container, before you 
+        write any code.
+    </p>
+</main>
+</body>
+</html>
